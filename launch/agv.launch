@@ -1,0 +1,7 @@
+<launch>
+    <node name="abh3"   pkg="m34_agv_raspi" type="abh3.py"  />
+    <node name="mqtt"   pkg="m34_agv_raspi" type="mqtts.py" />
+    <node name="im920s" pkg="m34_agv_raspi" type="im920s.py"/>
+    <node name="led"    pkg="m34_agv_raspi" type="led.py"   />
+    <node name="plc"    pkg="m34_agv_raspi" type="plc.py"   />
+</launch>
