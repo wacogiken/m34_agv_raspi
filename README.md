@@ -26,7 +26,7 @@ USB-Serial|ATEN UC-232A
 
 3.ROS node
 
-ノード名|ソフト名|内容
+ノード名|ソース名|内容
 ----|----|----
 abh3|abh3.py|ABH3モータ・ドライバから各種情報を読み出す
 plc|plc.py|PLCから各種情報を読み出す
