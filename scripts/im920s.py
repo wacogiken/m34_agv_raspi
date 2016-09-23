@@ -55,7 +55,6 @@ class im920Manager:
         while not rospy.is_shutdown():
             s = '%.4g:%.4g:%.4g:%d:%d\n' % (self.abh3.velAY, self.abh3.velBX, self.abh3.voltC, self.plc.adrs, self.plc.pote)
 
-            #print 'send:',s,
             self.write(s)
             num += 1
             rate.sleep()

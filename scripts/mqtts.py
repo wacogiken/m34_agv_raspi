@@ -43,7 +43,6 @@ class plcManager:
 	self.abh3 = msg
         s = '%.4g:%.4g:%.4g:%d:%d' % (self.abh3.velAY, self.abh3.velBX, self.abh3.voltC, self.plc.adrs, self.plc.pote)
         self.client.publish(self.topic, s)
-        #print 'send:',s
     
 if __name__ == '__main__':
     try:

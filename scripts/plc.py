@@ -51,7 +51,6 @@ class plcManager:
                 if c == chr(0x02):
                     s=''
                 elif c == chr(0x03):
-        	    print '[', s, ']'
                     sum=0
                     for i in s[:-2]:
                         sum += ord(i)
@@ -60,8 +59,6 @@ class plcManager:
                             loopf = False
                 else:
                     s += c
-
-        #print '[', s, ']'
 
         return s[:len(s)-2]
 
