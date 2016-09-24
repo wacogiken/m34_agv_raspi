@@ -4,7 +4,7 @@ AGVに搭載したRaspberryPi上のROSで動作する。
 
 ![agv](img/agv.jpg)
 
-1.hardware
+### 1. hardware
 
 種別|品名
 ----|----
@@ -16,7 +16,7 @@ USB-Serial|ATEN UC-232A
 
 ![agv](img/raspi.jpg)
 
-2.serial device rules
+### 2. serial device rules
 
 ベンダID|デバイス名
 ----|----
@@ -24,7 +24,7 @@ USB-Serial|ATEN UC-232A
 0557|/dev/plc
 0403|/dev/im920
 
-3.ROS node
+### 3. ROS node
 
 ノード名|ソース名|内容
 ----|----|----
