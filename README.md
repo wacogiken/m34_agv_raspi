@@ -8,8 +8,8 @@ AGVに搭載したRaspberryPi上のROSで動作する。
 
 種別|品名
 ----|----
-PC| RaspberryPi2(8GB SD)
-LED|Sense HAT(LEDのみ使用)
+PC| RaspberryPi2 / Raspbian 7.11 + ROS Indigo
+LED|Sense HAT
 5GHz Wi-Fi|Planex GW-450D2
 920MHz Wireless|Interplan IM920XT + IM315-USB-RX
 USB-Serial|ATEN UC-232A
@@ -18,7 +18,7 @@ USB-Serial|ATEN UC-232A
 
 ### 2. serial device rules
 
-ベンダID|デバイス名
+ベンダID|デバイス名|
 ----|----
 10c4|/dev/abh3
 0557|/dev/plc
